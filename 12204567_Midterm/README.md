@@ -32,11 +32,11 @@ We employ a Long Short-Term Memory (LSTM) neural network for predictive maintena
 ## Model Training
 To train the LSTM model, we use the generated dataset with varying failure probabilities. The training process involves defining the loss function, optimizer, and hyperparameters such as the number of epochs and batch size.
 
-###Training Parameters
-Loss Function: Binary Cross-Entropy
-Optimizer: Adam
-Number of Epochs: 50
-Batch Size: 32
+### Training Parameters
+- Loss Function: Binary Cross-Entropy
+- Optimizer: Adam
+- Number of Epochs: 50
+- Batch Size: 32
 
 ## Results
 After training the model, we evaluated its performance using test data. The model's accuracy, precision, recall, and F1-score are as follows:
