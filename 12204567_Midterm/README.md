@@ -25,14 +25,14 @@ sequence_low_failure = generate_sequential_data(sequence_length=100, failure_pro
 ## Model Architecture
 We employ a Long Short-Term Memory (LSTM) neural network for predictive maintenance. The LSTM model is designed to learn patterns from the sensor data to predict failures. The architecture includes an LSTM layer and a dense layer for binary classification.
 
-LSTM Model Architecture
-LSTM Layer: 64 units
-Dense Layer: Sigmoid activation for binary classification
+##LSTM Model Architecture
+- LSTM Layer: 64 units
+- Dense Layer: Sigmoid activation for binary classification
 
 ## Model Training
 To train the LSTM model, we use the generated dataset with varying failure probabilities. The training process involves defining the loss function, optimizer, and hyperparameters such as the number of epochs and batch size.
 
-Training Parameters
+###Training Parameters
 Loss Function: Binary Cross-Entropy
 Optimizer: Adam
 Number of Epochs: 50
